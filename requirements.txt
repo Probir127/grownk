@@ -1,0 +1,8 @@
+- Node.js >= 18.0.0
+- Vite (Build Tool)
+- React 19
+- Tailwind CSS 4
+- GSAP (Animations)
+- Lucide React (Icons)
+- React Router Dom v7
+- Cloudflare Pages (Hosting & Deployment)
