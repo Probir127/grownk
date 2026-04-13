@@ -1,8 +1,5 @@
-- Node.js >= 18.0.0
-- Vite (Build Tool)
-- React 19
-- Tailwind CSS 4
-- GSAP (Animations)
-- Lucide React (Icons)
-- React Router Dom v7
-- Cloudflare Pages (Hosting & Deployment)
+## This repository has no Python dependencies.
+# The previous content was human-readable bullets and caused `pip install`
+# to fail because lines starting with '-' are not valid requirements.
+# Leave this file empty or add valid pip requirements like:
+# requests==2.31.0
