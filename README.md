@@ -1,16 +1,86 @@
-# React + Vite
+# 🚀 GrownK — Agency Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Official landing page for **GrownK**, a PR and digital marketing agency. Built as a clean, fast static site and deployed on Cloudflare Pages.
 
-Currently, two official plugins are available:
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Cloudflare Pages](https://img.shields.io/badge/Deployed-Cloudflare%20Pages-F38020?style=flat&logo=cloudflare&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Live-success)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Site:** [grownk.pages.dev](https://grownk.pages.dev)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🏢 About GrownK
 
-## Expanding the ESLint configuration
+GrownK is a PR and digital marketing agency offering brand growth, content strategy, and digital presence services. This landing page serves as the agency's primary web presence.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- Clean, professional agency landing page
+- Responsive design for mobile and desktop
+- Fast load times via Cloudflare CDN
+- Sections: Hero, Services, About, Contact
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page structure |
+| CSS3 | Styling and layout |
+| JavaScript | Interactivity |
+| Cloudflare Pages | Hosting and global CDN delivery |
+
+---
+
+## 🚀 Local Development
+
+```bash
+# Clone the repo
+git clone https://github.com/Probir127/grownk.git
+cd grownk
+
+# Open in browser directly
+open index.html
+
+# Or serve locally
+npx serve .
+```
+
+---
+
+## 🚢 Deployment (Cloudflare Pages)
+
+```bash
+# Deploy via Wrangler CLI
+npx wrangler pages deploy . --project-name grownk
+```
+
+Or connect the GitHub repo directly to Cloudflare Pages for automatic deploys on every push.
+
+---
+
+## 📌 Future Plans
+
+- [ ] Add blog/news section for agency updates
+- [ ] Client testimonials section
+- [ ] Contact form with email integration
+- [ ] Custom domain via Cloudflare Registrar
+
+---
+
+## 👤 Built By
+
+**Probir Saha Shohom**
+[GitHub](https://github.com/Probir127) · [LinkedIn](https://www.linkedin.com/in/probir-saha-shohom-b01868280/)
+
+---
+
+## 📝 License
+
+All rights reserved © GrownK
