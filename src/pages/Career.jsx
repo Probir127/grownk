@@ -1,4 +1,5 @@
 import React from 'react';
+import SEO from '../components/SEO';
 
 const Career = () => {
   const openRoles = []; // Empty array = "no open roles" placeholder shows
@@ -28,6 +29,11 @@ const Career = () => {
 
   return (
     <div className="bg-[#0b0c10] text-[var(--text-main)] min-h-screen pt-32 pb-24">
+      <SEO 
+        title="Careers - Join the Team" 
+        description="Join the GrownK team. We're building the future of digital growth architecture." 
+        path="/career" 
+      />
       <div className="max-w-[1200px] mx-auto px-[5%]">
         {/* Header */}
         <div className="mb-20">

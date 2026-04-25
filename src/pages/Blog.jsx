@@ -1,4 +1,5 @@
 import React from 'react';
+import SEO from '../components/SEO';
 
 const Blog = () => {
   const posts = [
@@ -34,6 +35,11 @@ const Blog = () => {
 
   return (
     <div className="bg-[#0b0c10] text-[var(--text-main)] min-h-screen pt-32 pb-24">
+      <SEO 
+        title="The Blog - Insights & Strategy" 
+        description="Strategic insights, tactical breakdowns, and growth narratives from the GrownK team." 
+        path="/blog" 
+      />
       <div className="max-w-[1200px] mx-auto px-[5%]">
         <div className="mb-16">
           <p className="text-[0.75rem] uppercase tracking-[4px] text-[var(--accent-gold)] mb-6 font-semibold font-['Inter']">Insights</p>

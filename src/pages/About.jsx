@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
+import SEO from '../components/SEO';
 
 // Reusable Sub-components (Polished outside of render for performance)
 const SectionSeparator = ({ title }) => (
@@ -26,6 +27,11 @@ const About = () => {
 
   return (
     <div className="bg-[var(--bg-dark)] text-[var(--text-main)] min-h-screen pt-32 pb-24 overflow-hidden selection:bg-[var(--accent-gold-soft)] selection:text-[var(--accent-gold)]">
+      <SEO 
+        title="About Us" 
+        description="We started GrownK with one belief: great products deserve to be seen. GrownK is a PR and Digital Marketing Agency based in Bangladesh." 
+        path="/about" 
+      />
       <div className="max-w-[1000px] mx-auto px-[5%] text-center">
         
         {/* Document Header */}

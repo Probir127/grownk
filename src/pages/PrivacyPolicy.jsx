@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
+import SEO from '../components/SEO';
 
 // Reusable Sub-components (Polished outside of render)
 const SectionSeparator = ({ title }) => (
@@ -39,6 +40,11 @@ const PrivacyPolicy = () => {
 
   return (
     <div ref={containerRef} className="bg-[var(--bg-dark)] text-[var(--text-main)] min-h-screen pt-32 pb-24 overflow-hidden selection:bg-[var(--accent-gold-soft)] selection:text-[var(--accent-gold)]">
+      <SEO 
+        title="Privacy Policy" 
+        description="GrownK Agency Privacy Policy. Protecting your data as obsessively as we grow your brand." 
+        path="/privacy-policy" 
+      />
       <div className="max-w-[900px] mx-auto px-[5%]">
         
         {/* Document Header */}

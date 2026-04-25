@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
+import SEO from '../components/SEO';
 
 // --- Sub-components (outside for performance) ---
 
@@ -50,6 +51,11 @@ const RefundPolicy = () => {
 
   return (
     <div className="bg-[var(--bg-dark)] text-[var(--text-main)] min-h-screen pt-32 pb-24 selection:bg-[var(--accent-gold-soft)] selection:text-[var(--accent-gold)] overflow-hidden">
+      <SEO 
+        title="Refund Policy" 
+        description="GrownK Agency Refund Policy. Clear, Fair & Transparent Refund Rules for All Clients." 
+        path="/refund-policy" 
+      />
       <div className="max-w-[1000px] mx-auto px-[5%] policy-container">
         
         {/* Header Section */}

@@ -1,4 +1,5 @@
 import React from 'react';
+import SEO from '../components/SEO';
 
 const AIStudies = () => {
   const studies = [
@@ -24,6 +25,11 @@ const AIStudies = () => {
 
   return (
     <div className="bg-[#0b0c10] text-[var(--text-main)] min-h-screen pt-32 pb-24">
+      <SEO 
+        title="AI Studies - Research Lab" 
+        description="Exploring how artificial intelligence and data science amplify our growth architecture for real-world results." 
+        path="/ai-studies" 
+      />
       <div className="max-w-[1200px] mx-auto px-[5%]">
         <div className="mb-16">
           <p className="text-[0.75rem] uppercase tracking-[4px] text-[var(--accent-gold)] mb-6 font-semibold font-['Inter']">Research Lab</p>

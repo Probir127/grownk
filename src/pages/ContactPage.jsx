@@ -1,8 +1,14 @@
 import React from 'react';
+import SEO from '../components/SEO';
 
 const ContactPage = () => {
   return (
     <div className="bg-[#0b0c10] text-[var(--text-main)] min-h-screen pt-32 pb-24">
+      <SEO 
+        title="Contact Us" 
+        description="Strategic guidance is one conversation away. Let's discuss how we can transform your complex business into a compelling narrative." 
+        path="/contact" 
+      />
       <div className="max-w-[1200px] mx-auto px-[5%]">
         {/* Header */}
         <div className="mb-16">

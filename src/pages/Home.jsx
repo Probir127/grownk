@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SEO from '../components/SEO';
 import Hero from '../components/home/Hero';
 import GrowthChart from '../components/home/GrowthChart';
 import Services from '../components/home/Services';
@@ -27,6 +28,7 @@ const Home = () => {
 
   return (
     <div className="bg-[var(--bg-dark)] min-h-screen">
+      <SEO title="Digital Marketing & PR Agency" path="/" />
       <Hero />
       <GrowthChart />
       

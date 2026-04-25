@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
+import SEO from '../components/SEO';
 
 // --- Sub-components (outside for performance) ---
 
@@ -53,6 +54,11 @@ const TermsConditions = () => {
 
   return (
     <div className="bg-[var(--bg-dark)] text-[var(--text-main)] min-h-screen pt-32 pb-24 selection:bg-[var(--accent-gold-soft)] selection:text-[var(--accent-gold)]">
+      <SEO 
+        title="Terms and Conditions" 
+        description="GrownK Agency Terms and Conditions of Service. Client Service Agreement and Legal Framework." 
+        path="/terms-conditions" 
+      />
       <div className="max-w-[1000px] mx-auto px-[5%] policy-container">
         
         {/* Header Section */}

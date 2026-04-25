@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import Layout from './components/layout/Layout';
 import ScrollToTop from './components/layout/ScrollToTop';
 import Home from './pages/Home';
@@ -15,7 +16,8 @@ import { CurrencyProvider } from './contexts/CurrencyContext';
 
 function App() {
   return (
-    <CurrencyProvider>
+    <HelmetProvider>
+      <CurrencyProvider>
       <Router>
         <ScrollToTop />
         <Routes>
@@ -32,7 +34,8 @@ function App() {
           </Route>
         </Routes>
       </Router>
-    </CurrencyProvider>
+      </CurrencyProvider>
+    </HelmetProvider>
   );
 }
 
