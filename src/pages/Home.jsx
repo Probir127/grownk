@@ -10,6 +10,7 @@ import Experts from '../components/home/Experts';
 import FAQ from '../components/home/FAQ';
 import Contact from '../components/home/Contact';
 import StackBar from '../components/home/StackBar';
+import Offer from '../components/home/Offer';
 
 const Home = () => {
   const [selectedServices, setSelectedServices] = useState(new Set());
@@ -31,7 +32,7 @@ const Home = () => {
       <SEO title="Digital Marketing & PR Agency" path="/" />
       <Hero />
       <GrowthChart />
-      
+      <Offer/>
       <div id="solutions">
         <Services selectedServices={selectedServices} toggleService={toggleService} />
         <Addons selectedServices={selectedServices} toggleService={toggleService} />
