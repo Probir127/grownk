@@ -378,7 +378,7 @@ function App() {
             } else {
                 message = "Hi GrownK! I want to learn more about your services.";
             }
-            buildBtn.href = 'https://wa.me/8801971046485?text=' + encodeURIComponent(message);
+            buildBtn.href = 'https://wa.me/8801611510192?text=' + encodeURIComponent(message);
         }
     }
 
@@ -740,7 +740,7 @@ function App() {
             <a href="#contact">Contact</a>
           </div>
 
-          <a href="https://wa.me/8801971046485" target="_blank" className="btn btn-primary nav-cta">Start Your Chapter</a>
+          <a href="https://wa.me/8801611510192" target="_blank" className="btn btn-primary nav-cta">Start Your Chapter</a>
 
           <button className="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu" aria-expanded="false">
             <span className="hamburger-line"></span>
@@ -757,7 +757,7 @@ function App() {
           <a href="#solutions" className="mobile-link">Solutions</a>
           <a href="#impact" className="mobile-link">Impact</a>
           <a href="#contact" className="mobile-link">Contact</a>
-          <a href="https://wa.me/8801971046485" target="_blank" className="btn btn-primary btn-large mobile-cta">Start
+          <a href="https://wa.me/8801611510192" target="_blank" className="btn btn-primary btn-large mobile-cta">Start
             Your Chapter</a>
         </div>
       </div>
@@ -781,7 +781,7 @@ function App() {
                 At grownk we don't just market, we build brand with you.
               </p>
               <div className="hero-ctas gsap-fade-up">
-                <a href="https://wa.me/8801971046485" target="_blank" className="btn btn-primary btn-large">
+                <a href="https://wa.me/8801611510192" target="_blank" className="btn btn-primary btn-large">
                   Start Your Chapter
                 </a>
                 <a href="#solutions" className="btn-text scroll-hint">
@@ -1659,7 +1659,7 @@ function App() {
                   <h3 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Message Us for More Info</h3>
                   <p style={{ color: 'var(--text-muted)', marginBottom: '2rem' }}>Skip the forms. Message us
                     directly on WhatsApp to start building your stack immediately.</p>
-                  <a href="https://wa.me/8801971046485" target="_blank"
+                  <a href="https://wa.me/8801611510192" target="_blank"
                     className="btn btn-primary btn-large glass-btn"
                     style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', background: 'linear-gradient(135deg, var(--accent-electric), var(--accent-gold))', color: '#000' }}>
                     <i className="ph-bold ph-chat-circle-text"></i> Message on WhatsApp

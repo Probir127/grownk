@@ -90,7 +90,7 @@ const Navbar = () => {
           </div>
 
           <a
-            href="https://wa.me/8801971046485"
+            href="https://wa.me/8801611510192"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-block bg-transparent text-[#F5A623] text-[0.75rem] px-7 py-3.5 tracking-[1.5px] uppercase font-semibold border border-[#F5A623] shadow-[0_0_10px_rgba(245,166,35,0.2)] rounded-md transition-all duration-300 hover:bg-[#F5A623] hover:text-[#0b0c10] hover:shadow-[0_0_20px_rgba(245,166,35,0.5)] active:scale-95 no-underline"
@@ -164,7 +164,7 @@ const Navbar = () => {
 
 
           <a
-            href="https://wa.me/8801971046485"
+            href="https://wa.me/8801611510192"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setMobileMenuOpen(false)}
