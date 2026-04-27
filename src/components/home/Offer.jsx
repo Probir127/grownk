@@ -7,8 +7,8 @@ import { VscRobot } from 'react-icons/vsc'
 const Offer = () => {
   return (
     <>
-      <div className="container px-[5%] rounded-2xl my-9 py-5 shadow-[0_0_50px_rgba(245,166,35,0.12)]">
-        <div className=" grid grid-cols-3 content-center ">
+      <div className="container px-[5%] rounded-2xl my-9 py-8 bg-radial-[at_80%_70%] from-gold/20 via-zinc-950 to-black">
+        <div className=" grid grid-cols-3 items-center ">
           {/* -----------left side----------- */}
             <div className=" col-span-2">
                 <h5 className='text-[12px] uppercase text-gold font-semibold font-body tracking-[3px] mb-6'>
@@ -45,8 +45,8 @@ const Offer = () => {
                 </div>
             </div>
             {/* ---------------right side--------------- */}
-            <div className="mx-auto relative">
-              <div className="border border-gold rounded-2xl shadow-[0_0_50px_rgba(245,166,35,0.12)] ">
+            <div className="mx-auto flex justify-center items-center relative">
+              <div className=" border border-gold rounded-2xl shadow-[0_0_50px_rgba(245,166,35,0.12)] ">
                 <img src={chatbotUi} alt="" className='h-[400px]  rounded-2xl'/>
               </div>
               {/* Floating Badge */}
