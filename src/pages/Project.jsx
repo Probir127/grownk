@@ -58,7 +58,7 @@ const Project = () => {
             <p className="text-[1.1rem] text-[var(--text-muted)] max-w-[700px] mx-auto mb-10 leading-relaxed font-medium">
               We don't take on every brand. We partner with legacy builders. If your narrative is ready to dominate, start your strategy inquiry today.
             </p>
-            <a href="https://wa.me/8801971046485" target="_blank" className="font-['Bebas_Neue'] text-[1.4rem] tracking-[2px] uppercase bg-[var(--accent-gold)] text-black px-12 py-5 rounded-2xl hover:scale-105 hover:shadow-[0_0_50px_rgba(245,166,35,0.3)] transition-all inline-block">
+            <a href="https://wa.me/8801611510192" target="_blank" className="font-['Bebas_Neue'] text-[1.4rem] tracking-[2px] uppercase bg-[var(--accent-gold)] text-black px-12 py-5 rounded-2xl hover:scale-105 hover:shadow-[0_0_50px_rgba(245,166,35,0.3)] transition-all inline-block">
                Start Partnership Inquiry
             </a>
         </div>

@@ -14,7 +14,7 @@ const StackBar = ({ selectedServices }) => {
       message += `${index + 1}. ${item.name} (${item.price})\n`;
     });
     message += "\nPlease get back to me to discuss the details.";
-    return `https://wa.me/8801971046485?text=${encodeURIComponent(message)}`;
+    return `https://wa.me/8801611510192?text=${encodeURIComponent(message)}`;
   };
 
   return (

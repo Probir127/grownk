@@ -136,7 +136,7 @@ const Hero = () => {
             At <span className="notranslate font-semibold">GrownK</span> we don't just market, we build brand with you.
           </p>
           <div className="hero-ctas gsap-fade-up flex flex-wrap gap-8 items-center">
-            <a href="https://wa.me/8801971046485" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-large inline-flex items-center justify-center font-body uppercase tracking-[1.5px] font-bold transition-all duration-300 rounded-[4px] bg-transparent text-[#F5A623] border border-[#F5A623] hover:bg-[#F5A623] hover:text-[#0b0c10] hover:shadow-[0_0_15px_rgba(245,166,35,0.4)] active:scale-95 px-11 py-[22px] text-[0.85rem]">
+            <a href="https://wa.me/8801611510192" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-large inline-flex items-center justify-center font-body uppercase tracking-[1.5px] font-bold transition-all duration-300 rounded-[4px] bg-transparent text-[#F5A623] border border-[#F5A623] hover:bg-[#F5A623] hover:text-[#0b0c10] hover:shadow-[0_0_15px_rgba(245,166,35,0.4)] active:scale-95 px-11 py-[22px] text-[0.85rem]">
               Start Your Chapter
             </a>
             <a href="#solutions" className="btn-text scroll-hint inline-flex items-center gap-3 text-muted text-[0.95rem] py-4 relative group hover:text-main transition-colors duration-300">
